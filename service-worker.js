@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/dainar/coneapp/precache-manifest.7a3d702e304d81324bc874e441c406f4.js"
+  "/dainar/coneapp/precache-manifest.b066dcf32a6e3de4ceefce2cb50f437d.js"
 );
 
 workbox.clientsClaim();

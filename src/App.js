@@ -1,12 +1,12 @@
 import React from 'react';
 import { Router, Route, browserHistory, IndexRoute, Redirect } from 'react-router';
 import Error404 from './components/error.cmpt';
-import Dash from './dash.cmpt'
+
 import Login from './components/login.cmpt';
 import Register from './components/register.cmpt';
 import Resouces from './components/Resouces.cmpt';
 import Users from './components/users.cmpt';
-import Header from './components/header.cmpt';
+
 
 
 export default class App extends React.Component {
@@ -20,7 +20,7 @@ export default class App extends React.Component {
             
             
                 <Route  path="/">
-                  <IndexRoute component={Resouces}/>
+                  <IndexRoute component={Users}/>
                   <Route path="/login" component={Login}/>
               <Route path="/register" component={Register}/>
                   <Route  path='/recursos' component={Resouces}/>

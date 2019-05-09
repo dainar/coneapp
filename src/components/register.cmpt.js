@@ -90,7 +90,7 @@ class Register extends React.Component {
                 {!this.state.loader &&
                     <div className = "container login" >
                        <div className = "login-card" >
-                       <h4>Regustrate</h4>
+                       <h4>Registrate</h4>
                            <input type="text" name="correo"  onKeyPress={this.handleKeyPress} value={this.props.correo} onChange={this.handleChange} placeholder="Correo"/> 
                            <input type="password" name="password" onKeyPress={this.handleKeyPress} value={this.props.password} onChange={this.handleChange} placeholder="password"/> 
                             <div className="centr"> 

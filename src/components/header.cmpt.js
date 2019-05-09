@@ -26,7 +26,16 @@ class Header extends React.Component {
     
      componentDidMount = () => {
         
-     
+        if(localStorage.token){
+                
+
+        }else{
+           
+            browserHistory.push('/login');
+        }
+
+
+
         $.ajax({
             url: "https://reqres.in/api/users/1",
             method: "GET",

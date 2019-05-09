@@ -1,13 +1,13 @@
 {
   "main.css": "/dainar/coneapp/static/css/main.f7d7433d.chunk.css",
-  "main.js": "/dainar/coneapp/static/js/main.e7225bd6.chunk.js",
-  "main.js.map": "/dainar/coneapp/static/js/main.e7225bd6.chunk.js.map",
+  "main.js": "/dainar/coneapp/static/js/main.6b30c585.chunk.js",
+  "main.js.map": "/dainar/coneapp/static/js/main.6b30c585.chunk.js.map",
   "runtime~main.js": "/dainar/coneapp/static/js/runtime~main.fc649616.js",
   "runtime~main.js.map": "/dainar/coneapp/static/js/runtime~main.fc649616.js.map",
-  "static/js/2.f6543868.chunk.js": "/dainar/coneapp/static/js/2.f6543868.chunk.js",
-  "static/js/2.f6543868.chunk.js.map": "/dainar/coneapp/static/js/2.f6543868.chunk.js.map",
+  "static/js/2.3b1cc32a.chunk.js": "/dainar/coneapp/static/js/2.3b1cc32a.chunk.js",
+  "static/js/2.3b1cc32a.chunk.js.map": "/dainar/coneapp/static/js/2.3b1cc32a.chunk.js.map",
   "index.html": "/dainar/coneapp/index.html",
-  "precache-manifest.00af51bcff637295ba76f962ad6f4027.js": "/dainar/coneapp/precache-manifest.00af51bcff637295ba76f962ad6f4027.js",
+  "precache-manifest.7a3d702e304d81324bc874e441c406f4.js": "/dainar/coneapp/precache-manifest.7a3d702e304d81324bc874e441c406f4.js",
   "service-worker.js": "/dainar/coneapp/service-worker.js",
   "static/css/main.f7d7433d.chunk.css.map": "/dainar/coneapp/static/css/main.f7d7433d.chunk.css.map"
 }

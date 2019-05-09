@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/dainar/coneapp/static/js/runtime~main.fc649616.js"
   },
   {
-    "revision": "220fe1365df95032d053",
-    "url": "/dainar/coneapp/static/js/main.7b35d807.chunk.js"
+    "revision": "f25a12e401c4a9aa412b",
+    "url": "/dainar/coneapp/static/js/main.7f35b584.chunk.js"
   },
   {
     "revision": "b1bf672f3cdf4cb392a6",
     "url": "/dainar/coneapp/static/js/2.3b1cc32a.chunk.js"
   },
   {
-    "revision": "220fe1365df95032d053",
+    "revision": "f25a12e401c4a9aa412b",
     "url": "/dainar/coneapp/static/css/main.f7d7433d.chunk.css"
   },
   {
-    "revision": "3fbcfe14c8f2cfdc9bef210af2bbaff6",
+    "revision": "1f5caf9895fe89be2c08b70cfd4c22da",
     "url": "/dainar/coneapp/index.html"
   }
 ];

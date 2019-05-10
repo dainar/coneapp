@@ -1,7 +1,7 @@
 {
   "name": "conektapp",
   "version": "0.1.0",
-  "homepage": "https://github.com/dainar/coneapp",
+  "homepage": "https://dainar.github.io/coneapp",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.2",
@@ -26,9 +26,9 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

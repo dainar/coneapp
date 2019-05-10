@@ -13,13 +13,7 @@ export default class Dash extends React.Component {
     render() {
       return (
         <div className="admin">
-          <Header />
-          <Router history={browserHistory}>
-          
-            <Route  path='/' component={Dashboard}/>
-            <Route  path='/users'  component={Users}/>
-            <Route   component={Error404}/>
-          </Router>
+       
         </div>
       );
     }

@@ -26,7 +26,7 @@ export default class App extends React.Component {
               <Route path="/register" component={Register}/>
                   <Route  path='/recursos' component={Resources}/>
                   <Route  path='/users'  component={Users}/> 
-                  <Route  path="*"  component={Error404}/>
+                  
                 </Route>
             </Router>
           </div>

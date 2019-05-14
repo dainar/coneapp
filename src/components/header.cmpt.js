@@ -73,7 +73,7 @@ class Header extends React.Component {
                         
                     </div>
                 </Link>
-                <Link to={ '/recursos'} className="head-item">
+                <Link to={ process.env.PUBLIC_URL +'/recursos'} className="head-item">
                     <p>Recursos</p>
                     <div className="icon-env">
                         

@@ -32,7 +32,7 @@ class Login extends React.Component {
 
         componentDidMount= () => {
             if (localStorage.token) {
-                browserHistory.push('/');
+                browserHistory.push(process.env.PUBLIC_URL +'/');
             }
 
         }
@@ -82,7 +82,7 @@ class Login extends React.Component {
                     } else {
                         var token = sesion.token;
                         localStorage.token = token;
-                        browserHistory.push('/');
+                        browserHistory.push(process.env.PUBLIC_URL +'/');
                     }
                 }.bind(this));
             });

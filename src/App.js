@@ -20,7 +20,7 @@ export default class App extends React.Component {
             <Router  history={browserHistory}>
             
             
-                <Route  path={process.env.PUBLIC_URL }>
+                <Route  path={process.env.PUBLIC_URL + '/coneapp'}>
                   <IndexRoute component={Users}/>
                   <Route path={ '/login'} component={Login}/>
               <Route path={ '/recursos'} component={Register}/>

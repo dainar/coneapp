@@ -31,7 +31,7 @@ class Header extends React.Component {
 
         }else{
            
-            browserHistory.push('/login');
+            browserHistory.push(process.env.PUBLIC_URL +'/login');
         }
 
 
@@ -52,7 +52,7 @@ class Header extends React.Component {
 
     logout = (e)=>{
         localStorage.token = "";
-        browserHistory.push('/coneapp/login');
+        browserHistory.push(process.env.PUBLIC_URL +'/login');
     }
     
 
@@ -67,7 +67,7 @@ class Header extends React.Component {
                      <img alt="logo" className="logo" src={this.state.avatar} />
                      <p>{this.state.first} {this.state.last}</p>
                  <div>
-                <Link to={ '/users'} className="head-item">
+                <Link to={ process.env.PUBLIC_URL +'/users'} className="head-item">
                     <p>Usuarios</p>
                     <div className="icon-env">
                         

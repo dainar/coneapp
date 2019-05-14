@@ -28,7 +28,7 @@ export default class App extends React.Component {
                   <Route  path={ process.env.PUBLIC_URL +'/recursos'} component={Resources}/>
                   <Route  path={ process.env.PUBLIC_URL +'/users'}  component={Users}/> 
                   
-                
+                  <Route  path={ process.env.PUBLIC_URL +'/*'}  component={Error404}/> 
             </Router>
           </div>
         );

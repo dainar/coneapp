@@ -24,7 +24,7 @@ export default class App extends React.Component {
                   <IndexRoute component={Users}/>
                   </Route>
                   <Route path={ process.env.PUBLIC_URL +'/login'} component={Login}/>
-              <Route path={process.env.PUBLIC_URL + '/recursos'} component={Register}/>
+              <Route path={process.env.PUBLIC_URL + '/register'} component={Register}/>
                   <Route  path={ process.env.PUBLIC_URL +'/recursos'} component={Resources}/>
                   <Route  path={ process.env.PUBLIC_URL +'/users'}  component={Users}/> 
                   

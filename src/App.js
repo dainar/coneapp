@@ -22,10 +22,10 @@ export default class App extends React.Component {
             
                 <Route  path={process.env.PUBLIC_URL + '/coneapp'}>
                   <IndexRoute component={Users}/>
-                  <Route path={process.env.PUBLIC_URL + '/coneapp/login'} component={Login}/>
-              <Route path="/register" component={Register}/>
-                  <Route  path={process.env.PUBLIC_URL + 'coneapp/recursos'} component={Resources}/>
-                  <Route  path={process.env.PUBLIC_URL + '/coneapp/users'}  component={Users}/> 
+                  <Route path={process.env.PUBLIC_URL + '/login'} component={Login}/>
+              <Route path={process.env.PUBLIC_URL + '/recursos'} component={Register}/>
+                  <Route  path={process.env.PUBLIC_URL + '/recursos'} component={Resources}/>
+                  <Route  path={process.env.PUBLIC_URL + '/users'}  component={Users}/> 
                   
                 </Route>
             </Router>
